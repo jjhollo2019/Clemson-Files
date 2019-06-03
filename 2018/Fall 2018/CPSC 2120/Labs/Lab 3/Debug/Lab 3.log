@@ -1,0 +1,2 @@
+﻿MSVCRTD.lib(exe_winmain.obj) : error LNK2019: unresolved external symbol _WinMain@16 referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\Users\Jeremy's Laptop\Documents\Clemson\Fall 2018\CPSC 2120\Labs\Lab 3\Debug\Lab 3.exe : fatal error LNK1120: 1 unresolved externals

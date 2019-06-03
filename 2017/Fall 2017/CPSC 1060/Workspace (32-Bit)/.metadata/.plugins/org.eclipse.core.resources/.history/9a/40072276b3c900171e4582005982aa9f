@@ -1,0 +1,91 @@
+package lab11;
+
+public class LinearSearch {
+
+public static int getFirstIndex(double item, double[] x){
+	boolean getItem = true;
+	int itemNum = 0;
+	while (getItem){
+		int a = 0;
+		if (x[a] == item){
+			itemNum = a;
+			getItem = false;
+		}
+		if (a == (int) x.length){
+			itemNum = -1;
+			getItem = false;
+		}
+		else
+			a++;	
+	}
+	return itemNum;
+}
+
+public static int getFirstIndex(String item, String[] x){
+	boolean getItem = true;
+	int itemNum = 0;
+	while(getItem){
+		int a = 0;
+		if (x[a].equals(item)){
+			itemNum = a;
+			getItem = false;
+		}
+		if (a == (int) x.length){
+			itemNum = -1;
+			getItem = false;
+		}
+		else
+			a++;
+	}
+	return itemNum;
+}
+
+public static void main(String[] args){
+	String search = "";
+	double searchNum = 0;
+	String [] data = new String[(args.length - 3)];
+	double[] dataNum = new double[(args.length - 3)];
+	if (args[0].equals("-s")){
+		search = args[1];
+		int a = 0;
+		for (int i = 3; i < args.length; i++){
+			data[a] = args[i];
+			a++;
+		}
+		System.out.println(search + );
+	
+	
+	}
+	else if (args[0].equals("-d")){
+		searchNum = Double.parseDouble(args[1]);
+		int b = 0;
+		for (int i = 3; i < args.length; i++){
+			dataNum[b] = Double.parseDouble(args[i]);
+			b++;
+		}
+	}
+	else;
+	
+	
+	
+		
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

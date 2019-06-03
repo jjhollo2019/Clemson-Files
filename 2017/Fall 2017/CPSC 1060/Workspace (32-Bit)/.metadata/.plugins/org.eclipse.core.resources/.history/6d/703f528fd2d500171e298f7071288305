@@ -1,0 +1,88 @@
+/*
+ * FindTheSums.java
+ * Author: Jeremy Holloway
+ * Submission Date: 12/1/2017
+ * 
+ * Purpose: To write a method that finds the horizontal and vertical sums.
+ * 
+ * Statement of Academic Honesty:
+ * 
+ * The following code represents my own work. I have neither
+ * received nor given inappropriate assistance. I have not
+ * copied or modified code from any source other than the course
+ * webpage or the course textbook. i recognize that any unauthorized
+ * assistance or plagiarism will be handled in accordance
+ * with the policies at Clemson University and the policies
+ * of this course. I recognize that my work is based on an assignment 
+ * created by the School of Computing at Clemson University.
+ * Any publishing or posting of source code for this project
+ * is strictly prohibited unless you have written consent
+ * from the instructor.
+ */
+package lab12;
+import java.util.Stack;
+public class FindTheSums {//start class
+
+public static String arrayToString(int[][] a){//start arrayToString method
+	String array = "";
+	for (int b = 0; b < a.length; b++){//start for loop 1
+		for (int c = 0; c < a[b].length; c++){//start for loop 2
+			if (a[b][c] == a[a.length - 1][a[b].length - 1])
+				array += a[b][c];
+			else if(c == (a[b].length - 1))
+				array += (a[b][c] + "\n");
+			else
+				array += (a[b][c] + " ");
+		}//end for loop 2
+	}//end for loop 1
+	return array;
+}//end arrayToFind method
+
+public static int[][] horizontalSums(int[][] a, int sumToFind){//start horizontalSums method
+	int horzSum = 0;
+	int arrayLength = 0;
+	int index = 0;
+	int[][] horzArray = new int[a.length][a[0].length];
+	for (int b = 0; b < a.length; b++){
+		for (int c = 0; c < a[b].length; c++){
+			a[b][c] = horzArray[b][c];
+			horzSum += a[b][c];
+			if (horzSum > sumToFind){
+				a[index][arrayLength] = 0;
+				index++;
+			}
+			else if (horzSum == sumToFind){
+				horzSum = horzSum - a[index][arrayLength];
+				index++;
+			}
+			else
+				;	
+		}
+	}
+	return horzArray;
+}//end horizontal sums method
+
+public static int[][] verticalSums(int[][] a, int sumToFind){//start verticalSums method
+	int vertSum = 0;
+	int arrayLength = 0;
+	int index = 0;
+	int[][] vertArray = new int[a.length][a[0].length];
+	for (int b = 0; b < a.length; b++){
+		for (int c = 0; c < a[b].length; c++){
+			a[b][c] = vertArray[b][c];
+			vertSum += a[b][c];
+			if (vertSum > sumToFind){
+				a[index][arrayLength] = 0;
+				index++;
+			}
+			else if (vertSum == sumToFind){
+				vertSum = vertSum - a[index][arrayLength];
+				index++;
+			}
+			else
+				;	
+		}
+	}
+	return vertArray;
+}//end verticalSums method
+}//end class 

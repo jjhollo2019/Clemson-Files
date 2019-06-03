@@ -1,0 +1,102 @@
+/*
+ * FindTheSums.java
+ * Author: Jeremy Holloway
+ * Submission Date: 12/1/2017
+ * 
+ * Purpose: To write a method that finds the horizontal and vertical sums.
+ * 
+ * Statement of Academic Honesty:
+ * 
+ * The following code represents my own work. I have neither
+ * received nor given inappropriate assistance. I have not
+ * copied or modified code from any source other than the course
+ * webpage or the course textbook. i recognize that any unauthorized
+ * assistance or plagiarism will be handled in accordance
+ * with the policies at Clemson University and the policies
+ * of this course. I recognize that my work is based on an assignment 
+ * created by the School of Computing at Clemson University.
+ * Any publishing or posting of source code for this project
+ * is strictly prohibited unless you have written consent
+ * from the instructor.
+ */
+package lab12;
+
+public class FindTheSums {//start class
+
+	public static String arrayToString(int[][] a){//start arrayToString method
+		String array = "";
+		for (int b = 0; b < a.length; b++){//start for loop 1
+			for (int c = 0; c < a[b].length; c++){//start for loop 2
+				array += a[b][c];
+				if (c != (a[b].length - 1))
+					array += (" ");
+			}//end for loop 2
+			if(b != (a.length - 1))
+				array += ("\n");
+		}//end for loop 1
+		return array;
+	}//end arrayToFind method
+
+	public static int[][] horizontalSums(int[][] a, int sumToFind){//start horizontalSums method
+		int horzSum = 0;
+		int index = 0;
+		int colCount = 0;
+		int[][] horzArray = new int[a.length][a[0].length];
+		for (int b = 0; b < a.length; b++){
+			index = 0;
+			for (int c = 0; c < a[b].length; c++){
+				colCount++;
+				horzSum = 0;
+				for (int d = c; d < a[b].length; d++){
+
+					horzSum += a[b][d];
+					if (horzSum > sumToFind){
+						d = a[b].length;
+						index++;
+						colCount = 0;
+					}
+					else if (horzSum == sumToFind){
+						for (int i = c; i <= d; i++)
+							horzArray[b][i] = a[b][i];
+						index++;
+						colCount = 0;
+					}
+					else
+						;	
+				}
+			}
+		}
+		return horzArray;
+	}//end horizontal sums method
+
+	public static int[][] verticalSums(int[][] a, int sumToFind){//start verticalSums method
+		int vertSum = 0;
+		int index = 0;
+		int colCount = 0;
+		int[][] vertArray = new int[a.length][a[0].length];
+		for (int b = 0; b < a.length; b++){
+			index = 0;
+			for (int c = 0; c < a.length; c++){
+				colCount++;
+				vertSum = 0;
+				for (int d = b; d < a[b].length; d++){
+					vertSum += a[b][d];
+					if (vertSum > sumToFind){
+						d = a.length;
+						index++;
+						colCount = 0;
+					}
+					else if (vertSum == sumToFind){
+						for (int i = c; i <= d; i++)
+							vertArray[i][b] = a[i][b];
+						index++;
+						colCount = 0;
+					}
+					else
+						;	
+				}
+			}
+		}
+		return vertArray;
+	}//end verticalSums method
+}//end class 

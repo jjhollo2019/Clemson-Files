@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libraryInfos>
+<libraryInfo home="C:\Users\Jeremy's Laptop\Desktop\eclipse" version="1.7.0_80">
+<bootpath>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\resources.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\rt.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\jsse.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\jce.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\charsets.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\jfr.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre" version="1.7.0_80">
+<bootpath>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\resources.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\rt.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\jsse.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\jce.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\charsets.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\jfr.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre" version="1.8.0_144">
+<bootpath>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\resources.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\rt.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\jsse.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\jce.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\charsets.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\jfr.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+<libraryInfo home="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)" version="1.8.0_144">
+<bootpath>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\resources.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\rt.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\sunrsasign.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\jsse.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\jce.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\charsets.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\jfr.jar"/>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\classes"/>
+</bootpath>
+<extensionDirs>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\ext"/>
+<entry path="C:\WINDOWS\Sun\Java\lib\ext"/>
+</extensionDirs>
+<endorsedDirs>
+<entry path="C:\Users\Jeremy's Laptop\Desktop\eclipse (64-Bit)\jre\lib\endorsed"/>
+</endorsedDirs>
+</libraryInfo>
+</libraryInfos>

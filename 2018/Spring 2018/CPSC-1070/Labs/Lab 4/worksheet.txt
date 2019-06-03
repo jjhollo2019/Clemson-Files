@@ -1,0 +1,42 @@
+/* Author: Jeremy Holloway
+*  File Name: Worksheet.txt
+*  Date: 2/9/2018
+*  Description: This file holds the outputs of the assigned programs
+*/
+
+Lab 04 - Pointers
+
+Task 1:
+------
+1.  Record your output when you traced the code.
+    42 42
+    7 42
+    8 7 8 8
+    235 8 7 235 235
+
+
+2.  Copy and paste the output generated when you compiled and
+    executed ptrlab.c.
+    42 42    
+    7 42
+    8 7 8 8
+    235 8 7 235 235
+
+3.  The values in 1 and 2 above should be the same.  DO NOT
+    change your answers for 1.  For each answer that is different,
+    explain why you think your answer is different.
+    
+
+Task 2:
+------
+Yes
+Changing the value caused the answer to change at [0][1], [3][0], & [3][2] 
+The first change is obvious since it is a direct change to that specific value.
+The second change makes the pointer reference the value at c instead of a, so
+  when the value of 235 is assigned to the address of c it doesn't change a.
+The third change is because the value of c now holds 235 through the pointer assignment
+
+The code would result in an error because *v is also a pointer because it needs and address
+to point to and not a pointer to an address, it should be equal to the value of t.
+
+Fix: int *v = t;

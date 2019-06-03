@@ -1,0 +1,71 @@
+/*
+ * ClassifyMessage.java
+ * Author: Jeremy Holloway
+ * Submission Date: 9/29/2017
+ * 
+ * Purpose: Parse the text of usr specified messages into an 
+ * enumeration which can be assigned to variables.
+ * 
+ * Statement of Academic Honesty:
+ * 
+ * The following code represents my own work. I have neither
+ * received nor given inappropriate assistance. I have not
+ * copied or modified code from any source other than the course
+ * webpage or the course textbook. i recognize that any unauthorized
+ * assistance or plagiarism will be handled in accordance
+ * with the policies at Clemson University and the policies
+ * of this course. I recognize that my work is based on an assignment 
+ * created by the School of Computing at Clemson University.
+ * Any publishing or posting of source code for this project
+ * is strictly prohibited unless you have written consent
+ * from the instructor.
+ */
+import java.util.Scanner;
+import java.util.Arrays;
+public class Drawing {
+
+	public static void main(String[] args) {
+	Scanner keyboard = new Scanner(System.in);
+	System.out.println("Indicate the number of stars (>1): ");
+	final int numstar = keyboard.nextInt();
+	keyboard.close();
+	boolean valid = true;
+		if (valid == true){ //start if statement
+			if (numstar > 1)
+				;
+			else { //start of else statement 1
+			valid = false;
+			System.out.println("Invalid Input");
+			System.exit(0);
+			} //end of else statement 1
+			} //end if statement
+		else { //start else statement 2
+		valid = false;
+		System.out.println("Invalid Input");
+		System.exit(0);
+		} //end else statement 2
+	while (valid = true){ //start of while loop
+		char[] chars = new char[numstar];
+		for (int a = 0; a < chars.length; a--){
+			chars[a] = ('*');
+			System.out.println(chars);
+		}
+		
+		
+		
+		
+	} //end of while loop
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	} //end of main
+
+} //end of class

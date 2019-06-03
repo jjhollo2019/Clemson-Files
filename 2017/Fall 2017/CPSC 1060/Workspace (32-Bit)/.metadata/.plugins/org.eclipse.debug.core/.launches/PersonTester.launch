@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/Lab 11/src/lab11/LinearSearch.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="lab11.LinearSearch"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROGRAM_ARGUMENTS" value="-d 7.5 -x 9.73 10 12 7.5000 12.6 7.5 99 -28.5 7e10"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="Lab 11"/>
+</launchConfiguration>

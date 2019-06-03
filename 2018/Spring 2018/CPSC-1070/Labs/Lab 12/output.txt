@@ -1,0 +1,24 @@
+
+type: Rectangle  sides: 4
+length: 3  width: 4
+
+Rectangle's perimeter: 14
+Rectangle's area:      12
+
+type: Triangle  sides: 3
+side1: 4  side2: 5  side3: 3
+
+Triangle t1's perimeter: 12
+Triangle t1's area: 6
+
+type: Triangle  sides: 3
+side1: 7  side2: 6  side3: 7
+
+Triangle t1's perimeter: 20
+Triangle t2's area:      18.9737
+
+type: Hexagon  sides: 6
+side length: 7
+
+Hexagon's perimeter: 42
+Hexagon's area:        127.306

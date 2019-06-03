@@ -1,0 +1,40 @@
+CPSC 1071: Lab 6
+
+NAME: Jeremy Holloway
+
+TASK 1 QUESTIONS:
+----------------------------
+
+1) What line in broken1.c did the program seg fault on?
+	28
+
+
+2) What was the value of the variable "count" at the time of 
+   the seg fault?
+	10
+
+
+
+
+3) What was the value of the variable "ndx" at the time of the 
+   seg fault?
+	361
+
+
+
+4) What was the value of the variable "search" at the time of 
+   the seg fault?
+	1
+
+
+5) What are the values in the "table" array?
+   (use "p table", without quotes,  to print the elements of the table)
+	20, 13, 30, -10, 40, 50, -20, 60, 70, 5
+
+
+
+
+6) what do you think is the cause of the bug?
+	The conditions of the if statement will never be met as currently defined.
+
+
