@@ -1,0 +1,6 @@
+[submodule "2019/Spring-2019"]
+	path = 2019/Spring-2019
+	url = https://github.com/jjhollo2019/Spring-2019.git
+[submodule "Summer/3220/Projects/3220-Projects"]
+	path = Summer/3220/Projects/3220-Projects
+	url = https://github.com/jjhollo2019/3220-Projects.git
