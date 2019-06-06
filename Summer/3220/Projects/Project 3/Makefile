@@ -5,4 +5,4 @@ run:
 	./proj3
 
 clean:
-	rm *.o
+	rm proj3

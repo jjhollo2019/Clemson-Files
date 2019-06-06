@@ -7,6 +7,13 @@
 #include <stdio.h>
 #include "hybrid.h"
 
+char *bitmap_allocate(){
+    return NULL;
+}
+
+char *list_allocate( int arena ){
+    return NULL;
+}
 /* The release() function returns a valid block to the appropriate bitmap
  * or free list. The function performs several sanity checks on the memory
  * address passed by the caller, including alignment and a simple range
@@ -107,4 +114,3 @@ char *allocate( int size ){
       return NULL;
     }
 }
-
