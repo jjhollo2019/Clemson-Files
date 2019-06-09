@@ -7,12 +7,72 @@
 #include <stdio.h>
 #include "hybrid.h"
 
+void mask(int index, int arena){
+  if(index == 1){
+    return;
+  }
+}
+
 char *bitmap_allocate(){
-    return NULL;
+  long long unsigned int *header_ptr;
+  
+  char *start = arena_head[0];
+  char *end = start + ARENA_0_SIZE;
+
+  while(start != end && *start != 0) {
+    start += ARENA_0_BLOCK_SIZE;
+  }
+
+  header_ptr = (long long unsigned int *) start;
+  *header_ptr = HEADER_SIGNATURE;
+
+  arena_count[0]--;
+
+  return start + 8;
 }
 
 char *list_allocate( int arena ){
-    return NULL;
+  long long unsigned int *head_ptr;
+  char **block_ptr = (char**) arena_head[arena];
+
+  char *current = arena_head[arena];
+  char *next;
+  if(arena == 1){
+    next = *block_ptr;
+
+    while(*next != ARENA_1_SIZE && *current != 0){
+      printf("While loop\n");
+      current += ARENA_1_BLOCK_SIZE;
+      block_ptr = (char**) current;
+      next = current + ARENA_1_SIZE;
+      *block_ptr = next;
+    }    
+
+    head_ptr = (long long unsigned int *) block_ptr;
+    *head_ptr = HEADER_SIGNATURE;
+    printf("%d\n", *current);
+    arena_count[1]--;
+
+    return *block_ptr + 8;
+  }
+  else{
+    next = *block_ptr;
+
+    while(*next != ARENA_2_SIZE && *current != 0){
+      printf("While loop\n");
+      current += ARENA_2_BLOCK_SIZE;
+      block_ptr = (char**) current;
+      next = current + ARENA_2_SIZE;
+      *block_ptr = next;
+    }    
+
+    head_ptr = (long long unsigned int *) block_ptr;
+    *head_ptr = HEADER_SIGNATURE;
+    printf("%d\n", *current);
+    arena_count[1]--;
+
+    return *block_ptr + 8;
+  }
 }
 /* The release() function returns a valid block to the appropriate bitmap
  * or free list. The function performs several sanity checks on the memory
