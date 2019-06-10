@@ -42,11 +42,11 @@ char *list_allocate( int arena ){
   char *current = arena_head[arena];
   char *next;
   if(arena == 1){
-    next = *block_ptr;
+    next = *block_ptr + ARENA_1_BLOCK_SIZE;
 
     while(*next != ARENA_1_SIZE && *current != 0){
-      printf("While loop\n");
-      current += ARENA_1_BLOCK_SIZE;
+      printf("while\n");
+      *current += ARENA_1_BLOCK_SIZE;
       block_ptr = (char**) current;
       next = current + ARENA_1_SIZE;
       *block_ptr = next;
@@ -54,7 +54,7 @@ char *list_allocate( int arena ){
 
     head_ptr = (long long unsigned int *) block_ptr;
     *head_ptr = HEADER_SIGNATURE;
-    printf("%d\n", *current);
+    
     arena_count[1]--;
 
     return *block_ptr + 8;
@@ -62,8 +62,7 @@ char *list_allocate( int arena ){
   else{
     next = *block_ptr;
 
-    while(*next != ARENA_2_SIZE && *current != 0){
-      printf("While loop\n");
+    while(*next != ARENA_2_SIZE && *current != 0){ 
       current += ARENA_2_BLOCK_SIZE;
       block_ptr = (char**) current;
       next = current + ARENA_2_SIZE;
@@ -72,8 +71,8 @@ char *list_allocate( int arena ){
 
     head_ptr = (long long unsigned int *) block_ptr;
     *head_ptr = HEADER_SIGNATURE;
-    printf("%d\n", *current);
-    arena_count[1]--;
+    
+    arena_count[2]--;
 
     return *block_ptr + 8;
   }
