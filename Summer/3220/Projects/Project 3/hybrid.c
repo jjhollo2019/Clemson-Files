@@ -6,6 +6,17 @@
 
 #include <stdio.h>
 #include "hybrid.h"
+#include "assert.h"
+#include "math.h"
+
+unsigned int mask(int index){
+  int x = 31 - index;
+  unsigned int mask = 0x00000000;
+  mask += pow(2, x);
+  printf("%X\n", 0xf0000000);
+  printf("%X\n", x | bitmap[0]);
+  return mask;
+}
 
 char *bitmap_allocate(){
   //declare a header pointer
@@ -14,13 +25,17 @@ char *bitmap_allocate(){
   //set the start pointer to the start of the arena
   char *start = arena_head[0];
   //set the end to the last part of the memeory space
-  char *end = start + ARENA_0_SIZE;
+
+  //create an index for the bit to flip
+  int index = 0;
 
   //iterate through the memory space while not at the end
   //and while the memory pointer is used
-  while(start != end && *start != 0) {
+  while(*start != ARENA_0_SIZE && *start != 0) {
     //move the size of one block
     start += ARENA_0_BLOCK_SIZE;
+    //increment the index 
+    index++;
   }
 
   //get the address of start
@@ -31,51 +46,49 @@ char *bitmap_allocate(){
   //decrement the number of available blocks
   arena_count[0]--;
 
+  //declare a word index
+  int word = 0;
+  //while the index is greater than 31
+  while(index > 31){
+    //subtract 31
+    index -= 31;
+    //increment the word index
+    word++;
+  }
+
+  //create a bitmask with the mask function
+  unsigned int bitmask = mask(index);
+  //bitwise OR the mask with the bitmap
+  bitmap[word] |= bitmask;
+
   //return the pointer while leaving space for the header bits
   return start + 8;
 }
 
 char *list_allocate( int arena ){
-  long long unsigned int *head_ptr;
+  //check if the arena is full
+  if(arena_head[arena] == NULL){
+    //return NULL if it is
+    return NULL;
+  }
+  //declare a header for setting the signature
+  long long unsigned int *header_ptr;
+  //declare a block double pointer
   char **block_ptr = (char**) arena_head[arena];
 
-  char *current = arena_head[arena];
-  char *next;
-  if(arena == 1){
-    next = *block_ptr + ARENA_1_BLOCK_SIZE;
+  //set the arena head to the next pointer in arena
+  arena_head[arena] = *block_ptr;
+  
+  //set the header pointer to the block pointer
+  header_ptr = (long long unsigned int *) block_ptr;
+  //set the header equal to the header signature plus the arena ID
+  *header_ptr = HEADER_SIGNATURE + arena;
 
-    while(*next != ARENA_1_SIZE && *current != 0){
-      printf("while\n");
-      *current += ARENA_1_BLOCK_SIZE;
-      block_ptr = (char**) current;
-      next = current + ARENA_1_SIZE;
-      *block_ptr = next;
-    }    
+  //decrement the number of available blocks
+  arena_count[arena]--;
 
-    head_ptr = (long long unsigned int *) block_ptr;
-    *head_ptr = HEADER_SIGNATURE;
-    
-    arena_count[1]--;
-
-    return *block_ptr + 8;
-  }
-  else{
-    next = *block_ptr;
-
-    while(*next != ARENA_2_SIZE && *current != 0){ 
-      current += ARENA_2_BLOCK_SIZE;
-      block_ptr = (char**) current;
-      next = current + ARENA_2_SIZE;
-      *block_ptr = next;
-    }    
-
-    head_ptr = (long long unsigned int *) block_ptr;
-    *head_ptr = HEADER_SIGNATURE;
-    
-    arena_count[2]--;
-
-    return *block_ptr + 8;
-  }
+  //return the block pointer + 8
+  return (char*) block_ptr + 8;
 }
 
 void release( char *release_ptr ) {
@@ -101,6 +114,34 @@ void release( char *release_ptr ) {
     printf( "  => no action taken\n" );
     return;
   }
+
+  char **block_ptr = (char**)release_ptr;
+  int arena = header & 0x0000000f;
+  if(arena == 0){
+    int index = 0;
+    char *start = arena_head[arena];
+    while(start != ptr){
+      start += ARENA_0_BLOCK_SIZE;
+      index++;
+      //assert(index > 128);
+      printf("%d\n", index);
+    }
+
+    int word = 0;
+    while(index > 31){
+      index -= 31;
+      word++;
+    }
+
+    int bitmask = mask(index);
+    bitmap[arena] &= 0xffffffff;
+    bitmap[arena] ^= bitmask;
+  }
+  //printf("%d\n", arena);
+  *block_ptr = arena_head[arena];
+  //arena_head[arena] = release_ptr;//this piece kills it
+  arena_count[arena]++;
+  return;
 }
 
 char *allocate( int size ){

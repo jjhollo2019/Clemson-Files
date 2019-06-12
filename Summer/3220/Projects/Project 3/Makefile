@@ -1,5 +1,5 @@
 default:
-	gcc -Wall -g hybrid.c main.c -o proj3 
+	gcc -Wall -g hybrid.c main.c -o proj3 -lm
 
 run:
 	./proj3

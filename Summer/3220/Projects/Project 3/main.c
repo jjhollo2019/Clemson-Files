@@ -110,8 +110,30 @@ int main(){
   p[44] = allocate( 1000 ); printf( "ask for 1000, get %p\n", p[44] );
   p[45] = allocate( 1000 ); printf( "ask for 1000, get %p\n", p[45] );
   p[46] = allocate( 1000 ); printf( "ask for 1000, get %p\n", p[46] );
-  display_arenas();
+ 
+
   p[47] = allocate( 1000 ); printf( "ask for 1000, get %p\n", p[47] );
+  /*p[48] = allocate(90); printf("ask for 90, get %p\n", p[48]);
+  p[49] = allocate(90); printf("ask for 90, get %p\n", p[49]);
+  release(p[49]); printf("release %p\n", p[49]);
+  p[50] = allocate(90); printf("ask for 90, get %p\n", p[50]);
+
+  display_arenas();
+
+  for(int k = 0; k < 50; k++){
+    release(p[45]); printf("release %p\n", p[45]);
+    release(p[43]); printf("release %p\n", p[43]);
+    release(p[46]); printf("release %p\n", p[46]);
+    release(p[44]); printf("release %p\n", p[44]);
+
+    p[46] = allocate(1000); printf("ask for 1000, get %p\n", p[46]);
+    p[45] = allocate(1000); printf("ask for 1000, get %p\n", p[45]);
+    p[44] = allocate(1000); printf("ask for 1000, get %p\n", p[44]);
+    p[43] = allocate(1000); printf("ask for 1000, get %p\n", p[43]);
+
+  }
+
+  p[47] = allocate(1000); printf("ask for 1000, get %p\n", p[47]);*/
 
   return 0;
 }
