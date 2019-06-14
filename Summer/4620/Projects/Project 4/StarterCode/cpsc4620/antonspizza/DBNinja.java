@@ -21,29 +21,29 @@ This class also has static string variables for pickup, delivery and dine-in. If
 
 public final class DBNinja {
     //enter your user name here
-    private static String user = "";
+    private static String user = "mysql -h mysql1.cs.clemson.edu -u AntonsPizza_uidp -p AntonsPizza_mhv2";
     //enter your password here
-    private static String password = "";
+    private static String password = "PIZZA_DB43";
     //enter your database name here
-    private static String database_name = "";
+    private static String database_name = "AntonsPizza";
     //Do not change the port. 3306 is the default MySQL port
     private static String port = "3306";
     private static Connection conn;
 
     //Change these variables to however you record dine-in, pick-up and delivery, and sizes and crusts
-    public final static String pickup = "pickup";
-    public final static String delivery = "delivery";
-    public final static String dine_in = "dine-in";
+    public final static String pickup = "PICKUP";
+    public final static String delivery = "DELIVERY";
+    public final static String dine_in = "DINEIN";
 
-    public final static String size_s = "Small";
-    public final static String size_m = "Medium";
-    public final static String size_l = "Large";
-    public final static String size_xl = "X-Large";
+    public final static String size_s = "P_SMALL";
+    public final static String size_m = "P_MEDIUM";
+    public final static String size_l = "P_LARGE";
+    public final static String size_xl = "P_X_Large";
 
-    public final static String crust_thin = "Thin";
-    public final static String crust_orig = "Original";
-    public final static String crust_pan = "Pan";
-    public final static String crust_gf = "Gluten-Free";
+    public final static String crust_thin = "THIN";
+    public final static String crust_orig = "ORIGINAL";
+    public final static String crust_pan = "PAN";
+    public final static String crust_gf = "GLUTEN_FREE";
 
 
 
@@ -62,7 +62,6 @@ public final class DBNinja {
             System.out.println ("Could not load the driver");
 
             System.out.println("Message     : " + e.getMessage());
-
 
             return false;
         }
@@ -95,7 +94,8 @@ public final class DBNinja {
 		Remember, when a new order comes in the ingredient levels for the topping need to be adjusted accordingly. Remember to check for "extra" of a topping here as well.
 
 		You do not need to check to see if you have the topping in stock before adding to a pizza. You can just let it go negative.
-		*/
+        */
+        
 
 
         conn.close();
