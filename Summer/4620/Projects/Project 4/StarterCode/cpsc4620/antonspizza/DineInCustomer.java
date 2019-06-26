@@ -52,6 +52,4 @@ public class DineInCustomer extends AbsCustomer implements IDineInCustomer  {
         }
         return s;
     }
-
-
 }

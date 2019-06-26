@@ -53,7 +53,6 @@ public class Order {
     public ICustomer getCustomer()
     {
         return cust;
-
     }
 
     /**
@@ -65,7 +64,6 @@ public class Order {
     {
         return order_type;
     }
-
 
     /**
      *
@@ -145,8 +143,6 @@ public class Order {
         return discounts;
     }
 
-
-
     /**
      * Print the high level info
      * @return a string with the order number, type, customer information, number of pizzas and the price of the order
@@ -155,10 +151,9 @@ public class Order {
     {
         String s = "Order Number: " + Integer.toString(ID) + " Type: " + order_type;
 
-	
         s += " Customer: " + cust.toString();
 
-        s+= " Number of Pizzas: " + Integer.toString(pizzas.size()) + " Price: $" + Double.toString(this.calcPrice()) + "\n";
+        s += " Number of Pizzas: " + Integer.toString(pizzas.size()) + " Price: $" + Double.toString(this.calcPrice()) + "\n";
         return s;
     }
 

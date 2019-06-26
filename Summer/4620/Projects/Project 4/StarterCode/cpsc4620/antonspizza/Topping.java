@@ -18,7 +18,6 @@ public class Topping {
     private String name;
     private double price;
     private double inventory;
-    private int ID;
     private boolean extra;
 
 
@@ -27,23 +26,20 @@ public class Topping {
      * @param n the name of the topping
      * @param p the price of the topping
      * @param inv the inventory level
-     * @param i the topping ID
-     * @requires i is a valid ID
+     * @requires
      *           price >= 0
      *           inventory >= 0
      *
      * @ensures name = n
      *          price = p
      *          inventory = inv
-     *          ID = i
      *          extra = false
      */
-    public Topping(String n, double p, double inv, int i)
+    public Topping(String n, double p, double inv)
     {
         name = n;
         price = p;
         inventory = inv;
-        ID = i;
         extra = false;
     }
 
@@ -77,18 +73,7 @@ public class Topping {
         return inventory;
     }
 
-    /**
-     *
-     * @return the topping ID
-     * @ensures getID = ID
-     */
-    public int getID()
-    {
-        return ID;
-    }
-
     //extra is just a boolean value
-
     /**
      *
      * @return if the customer requested extra of the topping

@@ -19,8 +19,13 @@ unsigned int mask(int index){
 }
 
 char *bitmap_allocate(){
+  char *ptr;
   //declare a header pointer
   long long unsigned int *header_ptr;
+  int index;
+  int word;
+
+  if(arena_count[0] <= 0) return NULL;
   
   //set the start pointer to the start of the arena
   char *start = arena_head[0];

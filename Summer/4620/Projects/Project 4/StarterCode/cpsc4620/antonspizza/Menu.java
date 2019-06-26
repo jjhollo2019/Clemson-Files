@@ -12,7 +12,8 @@ Also note, there is currently little to no data validation happening in this cod
 YOU DO NEED TO EDIT THE PROMPT FOR THE CUSTOMERS PHONE NUMBER, TO LET ME KNOW WHAT FORMAT IT SHOULD BE (with dashes, or without, etc.)
  */
 
-public class Menu {
+public class Menu
+{
     public static void main(String[] args) throws SQLException, IOException
     {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
@@ -26,13 +27,11 @@ public class Menu {
         String option = reader.readLine();
         menu_option = Integer.parseInt(option);
 
-
         while(menu_option != 7)
         {
             if (menu_option == 1)
             {
                 EnterOrder();
-
             }
             else if(menu_option == 2)
             {
@@ -102,10 +101,8 @@ public class Menu {
                 seats.add(seat);
                 System.out.println("Enter seat numbers. Enter -1 to stop");
                 seat = Integer.parseInt(reader.readLine());
-
             }
             newCust = new DineInCustomer(table_num, seats , -1);
-
         }
         else
         {
@@ -120,7 +117,6 @@ public class Menu {
             }
 
             //Now that customer exists, display and have them choose a customer
-
             ArrayList<ICustomer> custs = DBNinja.getCustomerList();
             boolean needsCust = true;
             int cust_no = 1;
@@ -138,17 +134,13 @@ public class Menu {
                 if(cust_no <= custs.size())
                 {
                     //make a copy to avoid aliasing issues
-
                     needsCust = false;
-
                 }
                 else
                 {
                     System.out.println("Not a valid entry: Please select again");
-
                 }
             }
-
 
             //still need to set order_type
             if(answer == 2)
@@ -181,8 +173,6 @@ public class Menu {
         more = reader.readLine();
         while(more.equals("Y") || more.equals("y"))
         {
-
-
             // add discounts
             int chosen_d = 0;
             ArrayList<Discount> discs = DBNinja.getDiscountList();
@@ -213,8 +203,6 @@ public class Menu {
 
         //Order is now complete with pizzas and discounts. Save it to the database
         DBNinja.addOrder(newOrder);
-
-
     }
 
 
@@ -240,7 +228,7 @@ public class Menu {
 
 
          ***********************************************************************************/
-        System.out.println("Please Enter the Customer phone number: ");
+        System.out.println("Please Enter the Customer phone number (XXX-XXX-XXXX): ");
         String phone = reader.readLine();
 
         ICustomer new_cust;
@@ -426,7 +414,7 @@ public class Menu {
                 if(chosen_t <= curInventory.size())
                 {
                     //make copy to avoid aliasing issues
-                    Topping newT = new Topping(curInventory.get(chosen_t - 1).getName(), curInventory.get(chosen_t - 1).getPrice(), curInventory.get(chosen_t - 1).getInv(), curInventory.get(chosen_t - 1).getID());
+                    Topping newT = new Topping(curInventory.get(chosen_t - 1).getName(), curInventory.get(chosen_t - 1).getPrice(), curInventory.get(chosen_t - 1).getInv());
                     System.out.println("Would you like to add extra of this topping? Enter Y for yes: ");
                     String yn = reader.readLine();
                     if(yn.equals("Y") || yn.equals("y"))
