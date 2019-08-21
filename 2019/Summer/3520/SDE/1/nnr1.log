@@ -1,0 +1,73 @@
+Jeremy Holloway
+CPSC-3520-001
+7/16/2019
+SDE 1
+
+printList test cases
+
+let a = [[1.;2.;3.;4.];[5.;6.;7.;8.]];;
+
+printList(a);;
+
+1. 2. 3. 4.
+5. 6. 7. 8.
+-: unit = ()
+
+let b = [[6.;6.;6.];[7.;7.;7.];[8.;8.;8.]];;
+
+printList(b);;
+
+6. 6. 6.
+7. 7. 7.
+8. 8. 8.
+-: unit = ()
+
+theClass test cases
+
+let c = [1.;2.;3.;4.;5.];;
+
+theClass(c);;
+
+-: float = 5.
+
+let d = [6.;6.;6.];;
+
+theClass(d);;
+
+-: float = 6,
+
+distanceR2 test cases
+
+let e = [4.;5.;6.;7.;8.];;
+
+distanceR2(c, e);;
+
+-: float = 36.
+
+let f = [8.;3.;5.];;
+
+distanceR2(d,f);;
+
+-: float = 13.
+
+distanceAllVectors2 test cases
+
+distanceAllVectors2(d, b);;
+
+-: float list = [0.;2.;8.]
+
+distanceAllVectors2(f, b);;
+
+-: float list = [13.;17.;25.]
+
+nnr1 test cases
+
+let g = [[10.;10.;1.];[-10.;10.;2.];[-10.;-10.;3.];[10.;-10.;4.]];;
+
+nnr1(f,g);;
+
+-: float = 1.
+
+let h = [-6.;-7.;1.];;
+
+nnr1(h, g);;

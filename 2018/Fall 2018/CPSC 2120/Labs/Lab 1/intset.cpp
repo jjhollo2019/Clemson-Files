@@ -43,14 +43,12 @@ Intset::~Intset(){
  * Output: true, false
  */
 bool Intset::find(int key){
-	Node *n = head->next;		//set n to the memory address of the first list item
-	while (n != NULL){		//while loop will iterate through the list
-		if (n->payload == key){	//if statement will activate if finds a matching node
-			return true;	//return to break out of the function
+	for(Node *i = head; i != NULL; i = i->next){
+		if(i->payload == key){
+			return true;
 		}
-		n = n->next;		//iterate if payload doesn't match
 	}
-  	return false;			//function defaults to false and breaks out of the function
+	return false;
 }
 
 /* Function: insert(int key)
@@ -63,10 +61,8 @@ bool Intset::find(int key){
 void Intset::insert(int key){
 	Node *n = head->next;			//set n to the memory address for the first list item
 	Node *p = head;				//set p to the head node
-	Node *add = new Node;			//allocate memory for the new node to be inserted
 	if (n == NULL){				//if statement activates if this is the first item
-		add->payload = key;		//assign key to the payload of the new node
-		add->next = head->next;		//set add next address to the address head is pointing to
+		Node *add = new Node(key, head->next);
 		head->next = add;		//set the next address of the head node to the inserted node
 		return;				//break out of the function when complete
 	}
@@ -74,9 +70,8 @@ void Intset::insert(int key){
 		p = n;				//iterates while maintaining the previous node
 		n = n->next;			//iterates to the next node
 	}
+	Node *add = new Node(key, n);
 	p->next = add;				//set the address of the previous node to address of add
-	add->payload = key;			//set the payload of add to the key
-	add->next = n;				//set the address next of add to the next node
 }
 
 /* Function: remove(int key)
@@ -107,7 +102,7 @@ void Intset::remove(int key){
  * Output: none
  */
 void Intset::print(void){
-	Node *n = head->next;			//allocates memory for a new n
+	Node *n = head;			//allocates memory for a new n
 	while(n != NULL){			//while loop iterates through the list
 		cout << n->payload << endl;	//print payload
 		n = n->next;			//iterate to next list item

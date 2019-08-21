@@ -13,7 +13,11 @@ class Intset {
   struct Node{
    int payload;
    Node *next;
+   Node(){payload = 0; next = NULL;}
+   Node(int key){payload = key; next = NULL;}
+   Node(int key, Node *n){payload = key; next = n;}
   };
+
   Node *head;
 
  public:

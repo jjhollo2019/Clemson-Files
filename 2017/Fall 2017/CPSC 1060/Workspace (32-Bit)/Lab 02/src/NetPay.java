@@ -32,7 +32,7 @@ public class NetPay {
 	final double PAY_PER_HOUR = 7.25;
 	// Step 1: Ask for hours per week input
 	System.out.println("Enter number of hours per Week: ");
-	 int hoursPerWeek = Keyboard.nextInt();
+	int hoursPerWeek = Keyboard.nextInt();
 	
 	// Step 2: Calculate gross pay
 	double grossPay = hoursPerWeek * PAY_PER_HOUR;

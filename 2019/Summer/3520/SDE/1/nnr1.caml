@@ -1,0 +1,41 @@
+(* Jeremy Holloway
+   CPSC-3520-001
+   7/16/2019
+   SDE 1
+ *)
+open List;;
+
+let rec printList = function (listOfLists) ->
+    if((tl listOfLists) == [] || (tl (tl listOfLists)) == [])
+    then 
+        if((tl listOfLists == []))
+        then print_string "\n"
+        else printList((tl (tl listOfLists)))
+    else
+        print_string (string_of_float  (hd (hd listOfLists)));;
+        
+
+let rec theClass = function (avect) ->
+    if(length avect == 1)
+    then hd avect
+    else theClass(tl avect);;
+
+let squared = function (x) ->
+    x *. x;;
+
+let rec distanceR2 = function(v1,v2) ->
+    if(length v1 == 1 && length v2 == 1)
+    then 0.
+    else
+        squared( (hd v1 -. hd v2) ) +. distanceR2(tl v1, tl v2);;
+
+let rec distanceAllVectors2 = function (v, vset) ->
+    if(length vset == 0)
+    then []
+    else
+        distanceR2(v, hd vset)::distanceAllVectors2(v, tl vset);;
+
+let rec nnr1 = function (test, h) ->
+    if(distanceR2(test, hd h) = (hd (sort compare (distanceAllVectors2(test, h)))))
+        then theClass(hd h)
+        else nnr1(test, tl h);;
