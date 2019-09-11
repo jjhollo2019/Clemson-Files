@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Jeremy Holloway
+CPSC-4150-001
+9/6/2019
+Project 1
+-->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:background="@color/colorPrimary">
+
+    <Spinner
+        android:id="@+id/font_spinner"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/ImageView1"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <!-- This ImageView holds the picture for the main page -->
+    <ImageView
+        android:id="@+id/ImageView1"
+        android:layout_width="300sp"
+        android:layout_height="250sp"
+        android:baselineAligned="true"
+        android:src="@drawable/pic1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.585"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.353" />
+
+    <!-- This TextView holds the hello world text -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/ImageView1"
+        app:layout_constraintRight_toLeftOf="@+id/ImageView1"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/colorAccent"
+        android:text="@string/Hello" />
+
+    <!-- This Button is the learn more requirement -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        android:gravity="center"
+        android:text="@string/Lmore" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

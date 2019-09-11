@@ -1,0 +1,37 @@
+<!--
+Jeremy Holloway
+CPSC-4150-001
+9/6/2019
+Project 1
+-->
+<resources>
+
+    <!-- strings for the activity names -->
+    <string name="app_name">Hello World</string>
+    <string name="change">com.example.helloworld.changeView</string>
+
+    <!-- strings for the app functions -->
+    <string name="Hello">Hello World,\n I\'m Jeremy</string>
+    <string name="Lmore">Learn More</string>
+    <string name="back">Go Back</string>
+
+    <!-- strings for the bio -->
+    <string name="bio">\nHi, my name is Jeremy Holloway\nI am a Senior in Computer Science\n</string>
+    <string name="Htown">Hometown: Fountain Inn, SC\n</string>
+    <string name="Flanguage">Favorite Language: C++, move and copy semantics are very interesting\n</string>
+    <string name="Hobbies">Hobby: PC Gaming\n</string>
+    <string name="Ffood">Favorite Food: Buffalo Wings\n</string>
+    <string name="Funfact">Fun Fact: I love playing with my son\n</string>
+    <string name="Lin">Check Out My LinkedIn Page!</string>
+    <string name="newLine">\n</string>
+
+    <!-- string for the spinner menu -->
+    <string-array name="fonts">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Blue</item>
+        <item>Green</item>
+        <item>Default</item>
+    </string-array>
+
+</resources>

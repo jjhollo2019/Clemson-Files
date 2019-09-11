@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Jeremy Holloway
+CPSC-4150-001
+9/6/2019
+Project 1
+-->
+
+<!-- outside wrapper layout -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- scroll view for the bio page -->
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <!-- inner layout that holds the page content -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingRight="16dp"
+            android:paddingLeft="16dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary">
+
+            <!-- This Image view holds the first picture of the bio page -->
+            <ImageView
+                android:id="@+id/ImageView1"
+                android:layout_width="300sp"
+                android:layout_height="250sp"
+                android:baselineAligned="true"
+                android:layout_gravity="center"
+                android:src="@drawable/pic6" />
+
+            <!-- This Image view holds the second picture of the bio page -->
+            <ImageView
+                android:id="@+id/ImageView2"
+                android:layout_width="300sp"
+                android:layout_height="250sp"
+                android:baselineAligned="true"
+                android:layout_gravity="center"
+                android:src="@drawable/pic7" />
+
+            <!-- This TextView holds the bio opening line -->
+            <TextView
+                android:id="@+id/bio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/bio"/>
+
+            <!-- This TextView holds my hometown opening line -->
+            <TextView
+                android:id="@+id/bio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/Htown"/>
+
+            <!-- This TextView holds my favorite food opening line -->
+            <TextView
+                android:id="@+id/bio3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/Ffood"/>
+
+            <!-- This TextView holds my favorite language opening line -->
+            <TextView
+                android:id="@+id/bio4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/Flanguage"/>
+
+            <!-- This TextView holds a funfact about me opening line -->
+            <TextView
+                android:id="@+id/bio5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/Funfact"/>
+
+            <!-- This TextView holds my hobby opening line -->
+            <TextView
+                android:id="@+id/bio6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:text="@string/Hobbies"/>
+
+            <!-- This Button allows the user to return to the main page -->
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/back" />
+
+            <!-- This TextView is a newline spacer between buttons -->
+            <TextView
+                android:id="@+id/newLine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/newLine"/>
+
+            <!-- This Button is a link to my linked in page -->
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccent"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:text="@string/Lin" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
