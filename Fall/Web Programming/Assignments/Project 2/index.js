@@ -1,109 +1,83 @@
-//I'm defining these variables here so they're accessible
-//in the init and other child scopes
-
-//rootNode needs to be accessible from everything
-//but no guarantee that the DOM is ready
-//to do an ID lookup right now, so assign it in init
-let rootNode;
-
-//our array of button dom elements
-let buttonNodes = [
-  [], //row 0
-  [], //row 1
-  [] //row 2
+const winners = [
+  [0,1,2],
+  [3,4,5],
+  [6,7,8],
+  [0,4,8],
+  [2,4,6],
+  [0,3,6],
+  [1,4,7],
+  [2,5,8]
 ];
 
-let onclick = function(token){
-  let x = this.row;
-  let y = this.col;
+const board = () => Array.from(document.getElementsByClassName('btn'));
+const getFirst = () => Array.from(document.getElementsByClassName('goFirst'));
+const getRefresh = () => Array.from(document.getElementsByClassName('refresh'));
+const getId = (btn1) => Number.parseInt(btn1.id.replace('B', ''));
+const empty = () => board().filter(btn1 => btn1.innerText === '');
+const match = (arr) => arr.every(btn1 => btn1.innerText === arr[0].innerText && btn1.innerText !== '');
 
-  this.innerHTML = token;
-  this.owned = token;
-  this.disabled = true;
-}
+const turn = (index, token) => board()[index].innerText = token;
+const computerPick = () => getId(empty()[Math.floor(Math.random() * empty().length)]);
 
-for(let i = 0; i < 3; i++){
-  let rowDiv = document.createElement("div");
-  for(let j = 0; j < 3; j++){
-    let btn = (buttonNodes[i][j] = document.createElement("button"));
-    btn.innerHTML = "_";
-    btn.owned = false;
-    btn.row = i;
-    btn.col = j;
-    btn.onclick = onclick;
-    rowDiv.appendChild(btn);
-  }
-}
-
-let checkWin = function(token){
-  //console.log(this);
-  let x = this.row;
-  let y = this.column;
-
-  let counter = 0;
-  for(let i = 0; i < 3; i++){
-    if(this[x][i] == token){
-      counter++;
-    }
-    else{
-      counter = 0;
-      break;
-    }
-  }
-  if(counter == 3){
-    return true;
-  }
-  counter = 0;
-  for(i = 0; i < 3; i++){
-    if(this[i][y] == token){
-      counter++;
-    }
-    else{
-      counter = 0;
-      break;
-    }
-  }
-  if(counter == 3){
-    return true;
-  }
-  counter = 0;
-  for(i = 0; i < 3; i++){
-    if(this[i][i] == token){
-      counter++;
-    }
-    else{
-      counter = 0;
-      break;
-    }
-  }
-  if(counter == 3){
-    return true;
-  }
-  counter = 0;
-  for(i = 2; i >= 0; i--){
-    if(this[i][i] == token){
-      counter++;
-    }
-    else{
-      return false;
-    }
-  }
-  return true;
-}
-
-//this gets called by the 'load' event listener
-let init = function() {
-  rootNode = document.getElementById("app");
-
-  //create and add the 9 game board buttons
-  //to the array and to DOM
-  //assign an onclick callback
-
-  //create and add the "AI Go First" button
-
-  //create a reload button here if you want?
+const gameOver = (winCombo) => { 
+  winCombo.forEach(btn1 => btn1.classList.add('win'));
+  disableListeners();
 };
 
-//called once page is laded,
-//DOM is ready and has all it's nodes loaded
-window.addEventListener("load", init);
+const draw = () => {
+  board().forEach(btn1 => btn1.classList.add('draw'));
+  disableListeners();
+};
+
+const checkWin = () => {
+  let win = false;
+  winners.forEach(w => {
+    const grid = board();
+    const combo = [grid[w[0]], grid[w[1]], grid[w[2]]];
+    if(match(combo)) {
+      win = true;
+      gameOver(combo);
+    }
+  });
+  if(empty().length === 0){
+    draw();
+  }
+  return win;
+};
+
+const computerTurn = () => {
+  disableFirst();
+  disableListeners();
+  setTimeout(() => {
+    turn(computerPick(), 'O');
+    if(!checkWin())
+      enableListeners();
+  }, 1000);
+};
+
+const clickFunc = (event) => {
+  turn(getId(event.target), 'X');
+  if(!checkWin())
+    computerTurn();
+};
+
+const goFirst = () => {
+  computerTurn();
+  disableFirst();
+};
+
+const refreshPage = () => {
+  if(checkWin())
+    window.location.reload();
+}
+
+const enableListeners = () => board().forEach(btn1 => btn1.addEventListener('click', clickFunc));
+const disableListeners = () => board().forEach(btn1 => btn1.removeEventListener('click', clickFunc));
+const enableFirst = () => getFirst()[0].addEventListener('click', goFirst);
+const disableFirst = () => getFirst()[0].removeEventListener('click', goFirst);
+const enableRefresh = () => getRefresh()[0].addEventListener('click', refreshPage);
+
+
+enableListeners();
+enableFirst();
+enableRefresh();

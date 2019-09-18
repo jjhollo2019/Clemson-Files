@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".DialogFragment1"
+            android:label="@string/title_activity_dialog_fragment1"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".AboutPigDice"
+            android:label="@string/title_activity_about_pig_dice"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Game"
+            android:label="@string/title_activity_game"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar">
