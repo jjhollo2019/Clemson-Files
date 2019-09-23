@@ -1,12 +1,9 @@
 package com.example.pigdice;
 
-import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.os.Bundle;
-import android.view.LayoutInflater;
-import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AlertDialog;
@@ -50,7 +47,6 @@ public class DialogFragment1 extends DialogFragment {
             public void onClick(DialogInterface dialogInterface, int i) {
                 EditText editText = getDialog().findViewById(R.id.target_field);
                 score = Integer.parseInt(editText.getText().toString());
-                //System.out.println(score);
                 listener.onDialogPositiveClick(DialogFragment1.this);
             }
         });

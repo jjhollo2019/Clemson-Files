@@ -4,9 +4,8 @@
     <string name="title">PIG DICE</string>
     <string name="titlebutton">Play Game!</string>
     <string name="action_roll">Roll</string>
-    <string name="action_one">One</string>
-    <string name="action_two">Two</string>
-    <string name="action_three">Three</string>
+    <string name="action_one">Change Turn</string>
+    <string name="action_two">End Game</string>
     <string name="action_stop">Stop</string>
     <string name="dice_one">1</string>
     <string name="title_activity_game">Game</string>
@@ -22,9 +21,9 @@
     <string name="set_target">Save</string>
     <string name="cancel">Cancel Game</string>
     <string name="enter">Enter A Number Greater Than Zero</string>
-    <string name="scoreToWin">Score to Win:</string>
-    <string name="playerT">Player Tally:</string>
-    <string name="compT">Computer Tally:</string>
-    <string name="playerB">Player Bank:</string>
-    <string name="compB">Computer Bank:</string>
+    <string name="scoreToWin">Score to Win:\t</string>
+    <string name="playerT">Current Score:\t</string>
+    <string name="playerB">Player Bank:\t</string>
+    <string name="compB">Computer Bank:\t</string>
+    <string name="turn">Turn:\t</string>
 </resources>

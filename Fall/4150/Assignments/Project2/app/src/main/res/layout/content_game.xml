@@ -21,16 +21,17 @@
         android:textColor="@color/colorPrimary">
     </TextView>
 
-    <EditText
+    <TextView
         android:id="@+id/setScore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
         android:layout_toEndOf="@+id/scoreToBeat"
         android:ellipsize="end"
         android:gravity="start"
         android:textSize="25sp"
         android:textColor="@color/colorPrimary">
-    </EditText>
+    </TextView>
 
     <TextView
         android:id="@+id/playerTally"
@@ -45,40 +46,17 @@
         android:textSize="25sp">
     </TextView>
 
-    <EditText
+    <TextView
         android:id="@+id/displayTally"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
         android:layout_toEndOf="@+id/playerTally"
         android:layout_below="@+id/setScore"
         android:ellipsize="end"
-        android:gravity="end">
-    </EditText>
-
-    <TextView
-        android:id="@+id/computerTally"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:ellipsize="end"
-        android:layout_marginStart="50dp"
-        android:layout_below="@+id/playerTally"
-        android:gravity="start"
-        android:text="@string/compT"
         android:textColor="@color/colorPrimary"
-        android:textSize="25sp">
-    </TextView>
-
-    <EditText
-        android:id="@+id/setComputerTally"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:inputType="number"
-        android:layout_toEndOf="@+id/computerTally"
-        android:layout_below="@+id/displayTally"
-        android:ellipsize="end"
+        android:textSize="25sp"
         android:gravity="end">
-    </EditText>
+    </TextView>
 
     <TextView
         android:id="@+id/playerBank"
@@ -86,23 +64,24 @@
         android:layout_height="wrap_content"
         android:ellipsize="end"
         android:layout_marginStart="50dp"
-        android:layout_below="@+id/computerTally"
+        android:layout_below="@+id/playerTally"
         android:gravity="start"
         android:text="@string/playerB"
         android:textColor="@color/colorPrimary"
         android:textSize="25sp">
     </TextView>
 
-    <EditText
+    <TextView
         android:id="@+id/displayPB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:layout_toEndOf="@+id/playerTally"
-        android:layout_below="@+id/setComputerTally"
+        android:layout_toEndOf="@+id/playerBank"
+        android:layout_below="@+id/displayTally"
         android:ellipsize="end"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
         android:gravity="end">
-    </EditText>
+    </TextView>
 
     <TextView
         android:id="@+id/computerBank"
@@ -112,27 +91,53 @@
         android:layout_marginStart="50dp"
         android:layout_below="@+id/playerBank"
         android:gravity="start"
-        android:text="@string/playerB"
+        android:text="@string/compB"
         android:textColor="@color/colorPrimary"
         android:textSize="25sp">
     </TextView>
 
-    <EditText
+    <TextView
         android:id="@+id/displayCB"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:inputType="number"
         android:layout_toEndOf="@+id/computerBank"
         android:layout_below="@+id/displayPB"
         android:ellipsize="end"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
         android:gravity="end">
-    </EditText>
+    </TextView>
+
+    <TextView
+        android:id="@+id/Turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/computerBank"
+        android:gravity="start"
+        android:text="@string/turn"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/editTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/Turn"
+        android:layout_below="@+id/computerBank"
+        android:ellipsize="end"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:gravity="end">
+    </TextView>
 
     <ImageView
         android:id="@+id/dice1"
         android:layout_marginStart="50dp"
         android:layout_marginEnd="50dp"
-        android:layout_below="@+id/computerBank"
+        android:layout_below="@+id/Turn"
         android:layout_width="300dp"
         android:layout_height="300dp"
         android:layout_gravity="center"
