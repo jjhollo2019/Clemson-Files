@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Jeremy Holloway
+    CPSC-4150-001
+    9/24/2019
+    HW2
+    C20581376
+    jjhollo@g.clemson.edu
+    -->
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DialogFragment1">
+
+    <include layout="@layout/content_dialog_fragment1" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

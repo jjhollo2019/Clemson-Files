@@ -231,25 +231,27 @@ public class Sponsor {
         System.out.println("Sponsor email: " + this.emailAddress);
     }
 
-    public static void main(String[] args) throws SQLException, IOException {
-        // normal creation 1, sponsor1 and sponsor2 should match
-        Sponsor sponsor1 = new Sponsor("123456789", "Wes Bostic", "wes@email.com");
-        sponsor1.printAll();
-        Sponsor sponsor2 = new Sponsor("123456789");
-        sponsor2.printAll();
-   
-        // normal creation 2, sponsor3 and sponsor4 should match
-        Sponsor sponsor3 = new Sponsor("111111111", "Pete", "pete@testingemail.com");
-        sponsor3.printAll();
-        Sponsor sponsor4 = new Sponsor("111111111");
-        sponsor4.printAll();
-   
-        // normal creation 3, sponsor5 and sponsor6 should match
-        Sponsor sponsor5 = new Sponsor("0", "da'quan", "dragon@email.com");
-        sponsor5.printAll();
-        Sponsor sponsor6 = new Sponsor("0");
-        sponsor6.printAll();
-   
-        return;
-      }
+public static void main(String[] args) throws SQLException, IOException {
+    // normal creation 1, sponsor1 and sponsor2 should match
+    Sponsor sponsor1 = new Sponsor("123456789", "Wes Bostic", "wes@email.com");
+    sponsor1.printAll();
+    Sponsor sponsor2 = new Sponsor("123456789");
+    sponsor2.printAll();
+
+    // normal creation 2, sponsor3 and sponsor4 should match
+    Sponsor sponsor3 = new Sponsor("111111111", "Pete", "pete@testingemail.com");
+    sponsor3.printAll();
+    Sponsor sponsor4 = new Sponsor("111111111");
+    sponsor4.printAll();
+
+    // normal creation 3, sponsor5 and sponsor6 should match
+    Sponsor sponsor5 = new Sponsor("0", "da'quan", "dragon@email.com");
+    sponsor5.printAll();
+    Sponsor sponsor6 = new Sponsor("0");
+    sponsor6.printAll();
+
+    return;
+  }
+
+    
 }

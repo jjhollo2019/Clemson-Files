@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Jeremy Holloway
+    CPSC-4150-001
+    9/24/2019
+    HW2
+    C20581376
+    jjhollo@g.clemson.edu
+    -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:padding="6dp">
+
+<TextView
+        android:id="@+id/scoreToBeat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:layout_marginStart="50dp"
+        android:gravity="start"
+        android:layout_marginTop="75dp"
+        android:text="@string/scoreToWin"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary">
+    </TextView>
+
+    <TextView
+        android:id="@+id/setScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:layout_toEndOf="@+id/scoreToBeat"
+        android:ellipsize="end"
+        android:gravity="start"
+        android:textSize="25sp"
+        android:textColor="@color/colorPrimary">
+    </TextView>
+
+    <TextView
+        android:id="@+id/playerTally"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/scoreToBeat"
+        android:gravity="start"
+        android:text="@string/playerT"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/displayTally"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/playerTally"
+        android:layout_below="@+id/setScore"
+        android:ellipsize="end"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:gravity="end">
+    </TextView>
+
+    <TextView
+        android:id="@+id/playerBank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/playerTally"
+        android:gravity="start"
+        android:text="@string/playerB"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/displayPB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/playerBank"
+        android:layout_below="@+id/displayTally"
+        android:ellipsize="end"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:gravity="end">
+    </TextView>
+
+    <TextView
+        android:id="@+id/computerBank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/playerBank"
+        android:gravity="start"
+        android:text="@string/compB"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/displayCB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/computerBank"
+        android:layout_below="@+id/displayPB"
+        android:ellipsize="end"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:gravity="end">
+    </TextView>
+
+    <TextView
+        android:id="@+id/Turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_marginStart="50dp"
+        android:layout_below="@+id/computerBank"
+        android:gravity="start"
+        android:text="@string/turn"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp">
+    </TextView>
+
+    <TextView
+        android:id="@+id/editTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/Turn"
+        android:layout_below="@+id/computerBank"
+        android:ellipsize="end"
+        android:textColor="@color/colorPrimary"
+        android:textSize="25sp"
+        android:gravity="end">
+    </TextView>
+
+    <ImageView
+        android:id="@+id/dice1"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_below="@+id/Turn"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/dice_one"
+        android:src="@drawable/dice_1">
+    </ImageView>
+
+</RelativeLayout>

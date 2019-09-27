@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Jeremy Holloway
+    CPSC-4150-001
+    9/24/2019
+    HW2
+    C20581376
+    jjhollo@g.clemson.edu
+    -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frag_win"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Winner">
+
+    <TextView
+        android:id="@+id/winnerString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:textSize="40sp"
+        android:text="@string/placeholder" />
+
+    <Button
+        android:id="@+id/quitting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/quit">
+
+    </Button>
+
+    <Button
+        android:id="@+id/playingAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="75dp"
+        android:text="@string/playAgain">
+
+    </Button>
+
+
+</FrameLayout>

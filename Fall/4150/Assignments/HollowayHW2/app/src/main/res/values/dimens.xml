@@ -1,0 +1,11 @@
+<!--
+    Jeremy Holloway
+    CPSC-4150-001
+    9/24/2019
+    HW2
+    C20581376
+    jjhollo@g.clemson.edu
+    -->
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
