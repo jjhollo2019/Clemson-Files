@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="DSbutton">Powered By Dark Sky</string>
+    <string name="iconButton">Icons8</string>
+    <string name="back">Go Back</string>
+    <string name="humid">Humidity: </string>
+    <string name="mainTitle">Places I\'ve Been</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="poweredBy">Powered By Dark Sky</string>
+    <string name="title">Weather App</string>
+</resources>

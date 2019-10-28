@@ -1,17 +1,20 @@
 Jeremy Holloway
 CPSC-4150-001
 9/24/2019
-HW2
+HW3
 C20581376
 jjhollo@g.clemson.edu
 
 Build Instructions:
  Install java JDK version 11.0.4
  Install android studio 3.5
+ Use Gradle Version 5.4.0
  This program was tested with and recommended for the Pixel 2 API 26 Android VM
+ This program was tested with and recommended for the Pixel Slate Tablet running API 26 Android VM
  Import project files using the ide import tool
  enjoy
 
 Citations:
- Code for Dice class and app bar menu were taken from zybook dice roller app
- Pig Image: https://www.flaticon.com/free-icon/pig_57841
+ Code for LocationFragment was taken from zybook activities regarding the recycler view
+ Weather API is darksky
+ Icons were imported from icon8.com

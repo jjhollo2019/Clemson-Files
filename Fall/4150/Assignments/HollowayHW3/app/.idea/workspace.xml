@@ -1,0 +1,724 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41003daa-972a-4751-83d4-40c8bf418bc1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myapplication/ItemFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myapplication/MyItemRecyclerViewAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/myapplication/weather/WeatherObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_item.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/layout/fragment_item_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../volley/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../volley/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../volley/consumer-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../volley/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../volley/src/androidTest/java/com/example/volley/ExampleInstrumentedTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../volley/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../volley/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../volley/src/test/java/com/example/volley/ExampleUnitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../2019/Summer/4620/Projects/Project 4" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../2019/Summer/4620/Projects/Project 4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../HollowayHW2/app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../HollowayHW2/app/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4910/Assignments/Code/SQL/create.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4910/Assignments/Code/SQL/create.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4910/Assignments/Code/beanstalk/cpsc4910/cpsc4910/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4910/Assignments/Code/beanstalk/cpsc4910/cpsc4910/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4910/Assignments/Code/beanstalk/cpsc4910/cpsc4910/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4910/Assignments/Code/beanstalk/cpsc4910/cpsc4910/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4910/Assignments/Code/beanstalk/cpsc4910/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4910/Assignments/Code/beanstalk/cpsc4910/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4910/Assignments/Code/cpsc4910/project/Sponsor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4910/Assignments/Code/cpsc4910/project/Sponsor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4910/Assignments/Code/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4910/Assignments/Code/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../4910/Assignments/Code/webServer" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../4910/Assignments/Code/webServer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/.~lock.chapter_8.pptx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Book/Operating system Principles and practice.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class1.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class10.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class10.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class11.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class11.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class12.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class12.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class13.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class13.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class14.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class14.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class15.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class15.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class16.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class16.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class17.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class17.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class18.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class18.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class19.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class2.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class20.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class20.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class21.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class21.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class3.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class4.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class5.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class6.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class6.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class7.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class7.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class8.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class8.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class9.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Pre-class Assignments/Pre-class9.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/3220-Projects" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 1/Project 1.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 1/Project 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 3/.vscode/ipch/62c5c2f2c94e198c/main.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 3/.vscode/ipch/62c5c2f2c94e198c/mmap_address.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 3/.vscode/ipch/fca1142245ec5413/hybrid.ipch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 3/.vscode/ipch/fca1142245ec5413/mmap_address.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 3/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 3/hybrid.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 3/hybrid.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 3/main.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 3/proj3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/.vscode/settings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/P4.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/paging.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/paging.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/paging.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/trace1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/trace2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/trace3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/trace4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/Projects/Project 4/trace5.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_1.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_10.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_13.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_14.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_2a.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_2b.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_3.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_4.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_5a.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_5b.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_6a.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_6b.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_7a.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_7b.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_8.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapter_9.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/chapters_11_12.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3220/os_dynamic_memory_allocation.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/0/jjhollo-sde0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/0/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/1/build/Testing/Temporary/CTestCostData.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/1/build/Testing/Temporary/LastTest.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/1/nnr1.caml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/1/nnr1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/1/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/1/sde1_SSII2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/1/sde1_SSII2019_TESTING_ARCHIVE-1.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/1/test.caml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/2/nnr1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/2/nnr1.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/2/readme.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/2/sde2-TESTING-ARCHIVE.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/2/sde2_SSII2019.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/2/test.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/SDE/ocaml-4.08-refman.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch1-introduction-sr2(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch11-ocaml-profiling-s (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch11-ocaml-profiling-s.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch11-part2-ocaml-sr4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch12-part1-semantics-overview-s.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch12-part4-axiomatic-s.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch2-part3-formal-grammars-s.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch2-parts1and2-formal-grammars-sr1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch3-part1-prolog-s (2).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch3-part1-prolog-s.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch3-part2-prolog-sr1 (1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch3-part2-prolog-sr1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch3-part3-prolog-sr1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch4-part1-minic-parsing-s.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch5-part1-prolog-parsing-sr2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/plm-ch8-part1-lambda-sr1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/3520/Slides/software-licenses-etc-r4(1).pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/.~lock.Chapter 24 – NOSQL Systems.pptx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Ch30 - Database Security.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter 13 - XML_and_JSON.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter 24 – NOSQL Systems.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter01_Intro.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter02_concepts_and_architecture.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter03_ER_Diagrams.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter04-EER_diagrams.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter05_Relational_Model.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter06_Basic_SQL.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter07_advanced_SQL.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter09-ER_to_Schema.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter10 - programming.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Chapter12 - Object Oriented Databases.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Company_Tables.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/ER to Relational mapping algorithm.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/FinalReview.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 1/ER Diagram 1.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 1/ER Diagram 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 1/ER Diagram 2.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 1/ER Diagram 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 1/HW1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 1/Homework 1.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 1/Homework 1.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 2/HW2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 2/Homework 2.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 2/Homework 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 2/Homework2.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 2/Homework2.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 2/UniversityER.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 3/HW3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 3/Homework 3.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 3/Homework 3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/HW4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Homework 4.odt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Homework 4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Results/Results/1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Results/Results/2.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Results/Results/3.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Results/Results/4.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Results/Results/5.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Results/Results/6.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Results/Results/7.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Results/Results/8.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Homeworks/Homework 4/Results/Results/9.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Midterm2_review.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Midterm_review_slides.ppt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 1/Stage_1_ER_Diagram.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 3/4620_project2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 3/CreateTables.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 3/DropTables.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 3/P3.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 3/PopulateData.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 3/Project3.tar.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 3/Using MYSQL.pptx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 3/ViewTables.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 3/password.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/4620_project2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/P4.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/AbsCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/DBNinja.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/DeliveryCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/DineInCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/DineOutCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/Discount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/ICustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/IDeliveryCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/IDineInCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/IDineOutCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/Order.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/Pizza.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/cpsc4620/antonspizza/Topping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/CHANGES" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/COPYING" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/README" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/build.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/docs/README.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/docs/connector-j.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/docs/connector-j.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/mysql-connector-java-5.1.42-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/FabricCommunicationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/FabricConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/FabricStateResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/HashShardMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/RangeShardMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/Response.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/Server.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/ServerGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/ServerMode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/ServerRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/ShardIndex.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/ShardMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/ShardMappingFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/ShardTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/ShardingType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/hibernate/FabricMultiTenantConnectionProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/jdbc/ErrorReportingExceptionInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/jdbc/FabricMySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/jdbc/FabricMySQLConnectionProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/jdbc/FabricMySQLConnectionProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/jdbc/FabricMySQLDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/jdbc/FabricMySQLDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/jdbc/JDBC4FabricMySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/jdbc/JDBC4FabricMySQLConnectionProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/proto/xmlrpc/AuthenticatedXmlRpcMethodCaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/proto/xmlrpc/DigestAuthentication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/proto/xmlrpc/InternalXmlRpcMethodCaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/proto/xmlrpc/ResultSetParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/proto/xmlrpc/XmlRpcClient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/proto/xmlrpc/XmlRpcMethodCaller.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/Client.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/Array.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/Data.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/Fault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/Member.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/MethodCall.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/MethodResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/Param.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/Params.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/ResponseParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/Struct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/base/Value.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/fabric/xmlrpc/exceptions/MySQLFabricException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/AbandonedConnectionCleanupThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/AssertionFailedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/AuthenticationPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/BalanceStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/BestResponseTimeBalanceStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Blob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/BlobFromLocator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Buffer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/BufferRow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ByteArrayRow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/CacheAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/CacheAdapterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/CachedResultSetMetaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/CallableStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/CharsetMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Charsets.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Clob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/CommunicationsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/CompressedInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ConnectionFeatureNotAvailableException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ConnectionGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ConnectionGroupManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ConnectionImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ConnectionLifecycleInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ConnectionProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ConnectionPropertiesImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ConnectionPropertiesTransform.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/DatabaseMetaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/DatabaseMetaDataUsingInfoSchema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/DocsConnectionPropsHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/EscapeProcessor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/EscapeProcessorResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/EscapeTokenizer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ExceptionInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ExportControlled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Extension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/FailoverConnectionProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Field.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/IterateBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC42CallableStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC42Helper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC42PreparedStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC42ResultSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC42ServerPreparedStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC42UpdatableResultSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4CallableStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4ClientInfoProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4ClientInfoProviderSP.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4CommentClientInfoProvider.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4Connection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4DatabaseMetaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4DatabaseMetaDataUsingInfoSchema.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4LoadBalancedMySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4MultiHostMySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4MySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4MysqlSQLXML.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4NClob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4PreparedStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4PreparedStatementHelper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4ReplicationMySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4ResultSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4ServerPreparedStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/JDBC4UpdatableResultSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/LicenseConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/LoadBalanceExceptionChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/LoadBalancedAutoCommitInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/LoadBalancedConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/LoadBalancedConnectionProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/LoadBalancedMySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/LocalizedErrorMessages.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Messages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MiniAdmin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MultiHostConnectionProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MultiHostMySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MysqlDataTruncation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MysqlDefs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MysqlErrorNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MysqlIO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MysqlParameterMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/MysqlSavepoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/NamedPipeSocketFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/NdbLoadBalanceExceptionChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/NetworkResources.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/NoSubInterceptorWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/NonRegisteringDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/NonRegisteringReplicationDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/NotImplemented.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/NotUpdatable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/OperationNotSupportedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/OutputStreamWatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/PacketTooBigException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ParameterBindings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/PerConnectionLRUFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/PerVmServerConfigCacheFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/PingTarget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/PreparedStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ProfilerEventHandlerFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/RandomBalanceStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ReflectiveStatementInterceptorAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ReplicationConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ReplicationConnectionGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ReplicationConnectionGroupManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ReplicationConnectionProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ReplicationDriver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ReplicationMySQLConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ResultSetImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ResultSetInternalMethods.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ResultSetMetaData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ResultSetRow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/RowData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/RowDataCursor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/RowDataDynamic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/RowDataStatic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/SQLError.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Security.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/SequentialBalanceStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/ServerPreparedStatement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/SingleByteCharsetConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/SocketFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/SocketMetadata.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/SocksProxySocketFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/StandardLoadBalanceExceptionChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/StandardSocketFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Statement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/StatementImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/StatementInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/StatementInterceptorV2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/StreamingNotifiable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/TimeUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/TimeZoneMapping.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/UpdatableResultSet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/V1toV2StatementInterceptorAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/WatchableOutputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/WatchableWriter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/Wrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/WriterWatcher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/authentication/MysqlClearPasswordPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/authentication/MysqlNativePasswordPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/authentication/MysqlOldPasswordPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/authentication/Sha256PasswordPlugin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/configs/3-0-Compat.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/configs/5-0-Compat.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/configs/clusterBase.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/configs/coldFusion.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/configs/fullDebug.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/configs/maxPerformance.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/configs/solarisMaxPerformance.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/DeadlockTimeoutRollbackMarker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLDataException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLIntegrityConstraintViolationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLInvalidAuthorizationSpecException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLNonTransientConnectionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLNonTransientException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLQueryInterruptedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLStatementCancelledException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLSyntaxErrorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLTimeoutException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLTransactionRollbackException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLTransientConnectionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/MySQLTransientException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/CommunicationsException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLDataException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLIntegrityConstraintViolationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLInvalidAuthorizationSpecException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientConnectionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLNonTransientException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLQueryInterruptedException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLSyntaxErrorException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTimeoutException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTransactionRollbackException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientConnectionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/exceptions/jdbc4/MySQLTransientException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/integration/c3p0/MysqlConnectionTester.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/integration/jboss/ExtendedMysqlExceptionSorter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/integration/jboss/MysqlValidConnectionChecker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/interceptors/ResultSetScannerInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/interceptors/ServerStatusDiffInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/interceptors/SessionAssociationInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/CallableStatementWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/ConnectionWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/JDBC42CallableStatementWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/JDBC42PreparedStatementWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/JDBC4CallableStatementWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/JDBC4ConnectionWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/JDBC4MysqlPooledConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/JDBC4MysqlXAConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/JDBC4PreparedStatementWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/JDBC4StatementWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/JDBC4SuspendableXAConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/MysqlConnectionPoolDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/MysqlDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/MysqlDataSourceFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/MysqlPooledConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/MysqlXAConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/MysqlXADataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/MysqlXAException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/MysqlXid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/PreparedStatementWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/StatementWrapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/SuspendableXAConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jdbc2/optional/WrapperBase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jmx/LoadBalanceConnectionGroupManagerMBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jmx/ReplicationGroupManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/jmx/ReplicationGroupManagerMBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/log/Jdk14Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/log/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/log/LogFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/log/LogUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/log/NullLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/log/Slf4JLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/log/StandardLogger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/profiler/LoggingProfilerEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/profiler/ProfilerEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/profiler/ProfilerEventHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/Base64Decoder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/BaseBugReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/ErrorMappingsDocGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/LRUCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/PropertiesDocGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/ReadAheadInputStream.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/ResultSetUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/ServerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/TimezoneDump.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/com/mysql/jdbc/util/VersionFSHierarchyMaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/demo/fabric/Client1_Fabric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/demo/fabric/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/demo/fabric/EmployeesDataSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/demo/fabric/EmployeesJdbc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/demo/fabric/HibernateFabric.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/demo/fabric/resources/com/mysql/fabric/demo/employee.hbm.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/doc/sources/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/doc/sources/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/doc/sources/.settings/org.eclipse.jdt.apt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/doc/sources/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/doc/sources/.settings/org.eclipse.m2e.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/doc/sources/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/lib/c3p0-0.9.1-pre6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/lib/c3p0-0.9.1-pre6.src.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/lib/jboss-common-jdbc-wrapper-src.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/lib/jboss-common-jdbc-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/lib/slf4j-api-1.6.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/org/gjt/mm/mysql/Driver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/BaseStatementInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/BaseTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/UnreliableSocketFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/BaseFabricTestCase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/SetupFabricTestsuite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/TestAdminCommands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/TestDumpCommands.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/TestResultSetParser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/TestShardMapping.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/TestXmlRpcCore.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/jdbc/TestBasicConnection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/jdbc/TestFabricMySQLConnectionSharding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/jdbc/TestHABasics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/jdbc/TestHashSharding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/fabric/jdbc/TestRegressions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/perf/BasePerfTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/perf/LoadStorePerfTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/perf/RetrievalPerfTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/BlobRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/CachedRowsetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/CallableStatementRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/CharsetRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/ConnectionRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/DataSourceRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/EscapeProcessorRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/MetaDataRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/MicroPerformanceRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/NumbersRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/PooledConnectionRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/ResultSetRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/StatementRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/StressRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/StringRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/SubqueriesRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/SyntaxRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/UtilsRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/jdbc4/ConnectionRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/jdbc4/ExceptionSubclassesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/jdbc4/MetaDataRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/jdbc4/StatementRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/jdbc42/ConnectionRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/jdbc42/ResultSetRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/regression/jdbc42/StatementRegressionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/BlobTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/CallableStatementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/CharsetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/ConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/DataSourceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/DateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/EscapeProcessingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/MetadataTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/MiniAdminTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/MultiHostConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/NumbersTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/ReadOnlyCallableStatementTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/ResultSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/SSLTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/ServerControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/SimpleTransformer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/SplitDBdotNameTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/StatementsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/StringUtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/TestBug57662Logger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/TestLifecycleInterceptor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/TransactionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/TraversalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/UpdatabilityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/UtilsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/XATest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/jdbc4/StatementsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/jdbc42/ConnectionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/jdbc42/ResultSetTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/jdbc42/StatementsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/simple/tb2-data.txt.gz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/ca-cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/ca-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/ca-truststore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/certs_howto.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/client-cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/client-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/client-keystore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/mykey.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/mykey.pub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/server-cert.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/lib/mysql-connector-java-5.1.42/src/testsuite/ssl-test-certs/server-key.pem" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Projects/Project 4/StarterCode/makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/Syllabus4620Sum19.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/University Prompt EER.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/4620/University Prompt.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Homework/Homework Assignment #1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Homework/Homework Assignment #2.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Homework/Homework Assignment #3.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Phil 1010, Summer 2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Quizzes/Quiz 3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Quizzes/Quiz1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Apology_Crito/Apology_1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Apology_Crito/Apology_2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Apology_Crito/Apology_3.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Apology_Crito/Crito_1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Apology_Crito/Crito_2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Apology_Crito/Crito_background_notes.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Apology_Crito/Historical_Background_on_Plato's_Apology_of_Socrates.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Clifford_ethics_of_belief.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Euthyphro/Euthyphro 1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/Euthyphro/Euthyphro 2.doc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/THE_WILL_TO_BELIEVE.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/The_Republic.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/PHIL-1010/Readings/what_is_philosophy_reading.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../Summer/README.md" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
+    <option name="y" value="25" />
+    <option name="width" value="927" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41003daa-972a-4751-83d4-40c8bf418bc1" name="Default Changelist" comment="" />
+      <created>1570205194323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1570205194323</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" visible="true" weight="0.32982844" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" visible="true" weight="0.32937366" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+</project>
