@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">TimeZones</string>
+    <string name="Title">Time Zones (24 Hour): </string>
+    <string name="localTime">Local Time (EST):\t</string>
+    <string name="laTime">Los Angeles: </string>
+    <string name="localTimeInsert">placeholder</string>
+    <string name="laTimeInsert">placeholder</string>
+</resources>

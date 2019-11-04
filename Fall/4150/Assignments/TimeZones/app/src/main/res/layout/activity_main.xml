@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.wear.widget.BoxInsetLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_grey"
+    android:padding="@dimen/box_inset_layout_padding"
+    tools:context=".MainActivity"
+    tools:deviceIds="wear">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Title"
+        android:textAlignment="center"
+        >
+    </TextView>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/inner_frame_layout_padding"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical"
+        >
+
+        <!-- Local Time (EST) Row -->
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/localTime" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/localTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/localTimeInsert" >
+            </TextView>
+        </TableRow>
+
+        <!-- Los Angeles Time Row -->
+        <TableRow>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/laTime" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/laTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/laTimeInsert" >
+            </TextView>
+        </TableRow>
+
+        <!-- TODO: Add the TableRows for London and Hong Kong -->
+
+    </TableLayout>
+</androidx.wear.widget.BoxInsetLayout>

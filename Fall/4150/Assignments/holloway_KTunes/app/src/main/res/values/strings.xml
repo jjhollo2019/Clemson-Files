@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">KTunes</string>
+    <string name="titleDesc">Title of the song</string>
+    <string name="prev">Previous track button</string>
+    <string name="pause">Pause button</string>
+    <string name="next">Next track button</string>
+</resources>

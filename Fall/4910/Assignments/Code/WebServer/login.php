@@ -8,7 +8,12 @@
 		$password = $_POST['password'];
 		$table = getTable($db, $username);
 		if($table === 'DRIVER') {
-			//add code to use the function I made and save the results into the session
+			$_SESSION['sponsors'] = getSponsors($username);
+			$_SESSION['items'] = getItems($username);
+		}
+
+		if($table === 'ADMINISTRATIVE') {
+			$_SESSION['users'] = getUsers();
 		}
 
 		$sql = "SELECT USERNAME FROM " . $table . " WHERE USERNAME = '$username' AND PASSWORD = '$password'";
@@ -53,8 +58,38 @@
 	function getSponsors($driver) {
 		$sql = "SELECT SPONSOR FROM SPONSORED_BY WHERE DRIVER = '$driver'";
 
-		if($result = mysqli_fetch_array($db, $sql)) {
-			return $result;
+		if($result = mysqli_query($db, $sql)) {
+			$sponsors = mysqli_fetch_array($result, MYSQL_ASSOC);
+			return $sponsors;
+		} else {
+			return false;
+		}
+	}
+
+	function getItems($driver) {
+		$sponsor = $_SESSION['sponsors'];
+		$sql = "SELECT PRODUCT_ID FROM ADD_PRODUCTS WHERE SPONSOR = '$sponsor[0]' AND MARKET = (SELECT ID FROM MARKET WHERE SPONSOR = '$sponsor[0]')";
+
+		if($result = mysqli_query($db, $sql)) {
+			$items = mysqli_fetch_array($result, MYSQL_ASSOC);
+			return $items;
+		} else {
+			return false;
+		}	
+	}
+
+	function getUsers() {
+		$sql = "SELECT USERNAME FROM DRIVER";
+
+		if($result = mysqli_query($db, $sql)) {
+			$users['drivers'] = mysqli_fetch_array($result, MYSQL_ASSOC);
+			$sql2 = "SELECT USERNAME FROM SPONSOR";
+			if($result2 = mysqli_query($db, $sql2)) {
+				$users['sponsors'] = mysqli_fetch_array($result2, MYSQL_ASSOC);
+				return $users;
+			} else {
+				return false;
+			}
 		} else {
 			return false;
 		}
